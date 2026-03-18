@@ -1,0 +1,31 @@
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+public class PlayerMovement : MonoBehaviour
+{
+    public float speed = 6f;
+    public float horizontalSpeed = 3f;
+    public float rightLimit = 5.5f;
+    public float leftLimit = -5.5f;
+
+    void Update()
+    {
+        transform.Translate(Vector3.forward * speed * Time.deltaTime, Space.World);
+
+        if (Keyboard.current.aKey.isPressed || Keyboard.current.leftArrowKey.isPressed)
+        {
+            if (this.gameObject.transform.position.x > leftLimit)
+            {
+                transform.Translate(Vector3.left * horizontalSpeed * Time.deltaTime);
+            }
+        }
+        if (Keyboard.current.dKey.isPressed || Keyboard.current.rightArrowKey.isPressed)
+        {
+            if (this.gameObject.transform.position.x < rightLimit)
+            {
+
+                transform.Translate(Vector3.right * horizontalSpeed * Time.deltaTime);
+            }
+        }
+    }
+}
