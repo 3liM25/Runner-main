@@ -6233,6 +6233,7 @@ MonoBehaviour:
   horizontalSpeed: 3
   rightLimit: 5.5
   leftLimit: -5.5
+  isRunning: 0
 --- !u!136 &382377592
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6481,6 +6482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MasterInfo
   coinDisplay: {fileID: 1069977843}
+  internaldistance: 0
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
