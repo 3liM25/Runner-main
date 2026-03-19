@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Hp\\OneDrive\\Desktop\\Runner-main\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\hp\\onedrive\\desktop\\runner-main\\assets\\scripts\\masterinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\masterinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\hp\\onedrive\\desktop\\runner-main\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\hp\\onedrive\\desktop\\runner-main\\assets\\scripts\\stagecontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stagecontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,8 +31,8 @@
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collisiondetect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hp\\OneDrive\\Desktop\\Runner-main\\Assets\\Scripts\\CollectCoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CollectCoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\hp\\onedrive\\desktop\\runner-main\\assets\\scripts\\collectcoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectcoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,37 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StageControls.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\Runner-main\\Assets\\Scripts\\StageControls.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StageControls.cs",
-              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\Runner-main\\Assets\\Scripts\\StageControls.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StageControls.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T19:25:30.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoadToStage.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\Runner-main\\Assets\\Scripts\\LoadToStage.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LoadToStage.cs",
-              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\Runner-main\\Assets\\Scripts\\LoadToStage.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LoadToStage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\Runner-main\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\Runner-main\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T19:16:06.316Z",
+              "WhenOpened": "2026-03-18T22:59:52.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CollectableRotate.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\Runner-main\\Assets\\Scripts\\CollectableRotate.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CollectableRotate.cs",
@@ -72,12 +67,11 @@
               "RelativeToolTip": "Assets\\Scripts\\CollectableRotate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T17:37:01.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T17:37:01.378Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CollisionDetect.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\Runner-main\\Assets\\Scripts\\CollisionDetect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CollisionDetect.cs",
@@ -89,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\Runner-main\\Assets\\Scripts\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
@@ -97,12 +91,11 @@
               "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAIwDQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T14:45:56.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T14:45:56.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CollectCoin.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\Runner-main\\Assets\\Scripts\\CollectCoin.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CollectCoin.cs",
@@ -110,8 +103,44 @@
               "RelativeToolTip": "Assets\\Scripts\\CollectCoin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T17:32:53.467Z",
+              "WhenOpened": "2026-03-18T17:32:53.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MasterInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\Runner-main\\Assets\\Scripts\\MasterInfo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MasterInfo.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\Runner-main\\Assets\\Scripts\\MasterInfo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MasterInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T22:54:27.427Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StageControls.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\Runner-main\\Assets\\Scripts\\StageControls.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StageControls.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\Runner-main\\Assets\\Scripts\\StageControls.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StageControls.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T19:25:30.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoadToStage.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\Runner-main\\Assets\\Scripts\\LoadToStage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LoadToStage.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\Runner-main\\Assets\\Scripts\\LoadToStage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LoadToStage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T19:16:06.316Z"
             }
           ]
         }

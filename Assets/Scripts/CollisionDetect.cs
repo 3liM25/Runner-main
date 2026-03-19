@@ -13,6 +13,7 @@ public class CollisionDetect : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        SaveLoad.saveData = true;
         StartCoroutine(CollisionEnd());
     }
 

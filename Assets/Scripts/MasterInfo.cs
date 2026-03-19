@@ -8,10 +8,17 @@ public class MasterInfo : MonoBehaviour
     [SerializeField] GameObject coinDisplay;
     public static int distancerun;
     [SerializeField] int internaldistance;
+    [SerializeField] GameObject RunDisplay;
 
+    void start()
+    {
+        coinCount = 0;
+        distancerun = 0;
+    }
     void Update()
     {
         internaldistance = distancerun;
-        coinDisplay.GetComponent<TMPro.TMP_Text>().text = "COINS: " + coinCount;
+        coinDisplay.GetComponent<TMPro.TMP_Text>().text = "" + coinCount;
+       RunDisplay.GetComponent<TMPro.TMP_Text>().text = "" + distancerun;
     }
 }

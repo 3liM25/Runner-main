@@ -16,9 +16,16 @@ public class MainMenu : MonoBehaviour
     [SerializeField] GameObject staticcam;
     [SerializeField] GameObject fadeIn;
 
+    [SerializeField] int loadedcoins;
+    [SerializeField] int loadedDistance;
+    [SerializeField] GameObject coindisplay;
+    [SerializeField] GameObject distancedisplay;
+
+
+
     void Start()
     {
-        StartCoroutine(FadeInTurnOff());
+     StartCoroutine(FadeInTurnOff());
         if (hasCliked == true)
         {
             staticcam.SetActive(true);
@@ -31,7 +38,7 @@ public class MainMenu : MonoBehaviour
 
     void Update()
     {
-
+  
     }
 
     public void MenuBeginButton()
@@ -68,6 +75,11 @@ public class MainMenu : MonoBehaviour
 
     IEnumerator FadeInTurnOff()
     {
+        yield return new WaitForSeconds(0.05f);
+        loadedcoins = PlayerPrefs.GetInt("COINSAVE");
+        loadedDistance = PlayerPrefs.GetInt("DISTANCESAVE");
+        coindisplay.GetComponent<TMPro.TMP_Text>().text = "" + loadedcoins;
+        distancedisplay.GetComponent<TMPro.TMP_Text>().text = "" + loadedDistance;
         yield return new WaitForSeconds(1);
         fadeIn.SetActive(false);
     }
